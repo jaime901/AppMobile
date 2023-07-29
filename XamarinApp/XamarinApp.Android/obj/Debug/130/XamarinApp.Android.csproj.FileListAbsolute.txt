@@ -1,3 +1,5 @@
+C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\bin\Debug\Resources\Images\nasa.JPG
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\bin\Debug\XamarinApp.Android.dll
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\bin\Debug\XamarinApp.Android.pdb
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\bin\Debug\com.companyname.xamarinapp.apk
@@ -629,7 +631,6 @@ C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinA
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\app_shared_libraries\x86\libxamarin-app.so
-C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\android\bin\classes.dex
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp.Android\obj\Debug\130\stamp\_CompileJava.stamp

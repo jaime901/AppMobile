@@ -5,12 +5,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="XamarinApp.Views.LoginPage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             xmlns:local="clr-namespace:XamarinApp;assembly=XamarinApp"
+             xmlns:viewModels="clr-namespace:XamarinApp.ViewModels">
+    <ContentPage.BindingContext>
+        <viewModels:LoginViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Entry Text="{Binding UserName}" Placeholder="Username" />
-            <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True" />
+            <Image Source="{local:ImageResource XamarinApp.Resources.Images.nasa.JPG}" WidthRequest="200" HeightRequest="200" />
+            <Entry Text="{Binding UserName}" Placeholder="Nombre de usuario" />
+            <Entry Text="{Binding PassWord}" Placeholder="Contraseña" IsPassword="True" />
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+
+            <Label Text="{Binding WelcomeMessage}" FontSize="Subtitle" TextColor="{Binding MessageColor}" HorizontalOptions="Center" Margin="0,30,0,0" IsVisible="{Binding ShowMessage}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
