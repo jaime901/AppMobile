@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zhh8+Q70kApPl38QNll1h4V2zGkZcukR83526KuqYrrAssHCPMVrxk+sPFE/r8X243bCUYr29WXSr88DdviCGQ==",
+  "dgSpecHash": "1l31HvuxvEftRZdXcCB8qSn9AB7VvEda/dw0HqE/yrgA0RM6/8O9kJMKBrxkjv47Euii2t9p6ovCPvTWovhtPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaime\\Documents\\appmovil\\appmovil\\AppMovilAPI\\AppMovilAPI\\AppMovilAPI.csproj",
+  "projectFilePath": "C:\\Users\\jaime\\Documents\\appmovil\\Github\\AppMobile\\AppMobile\\AppMovilAPI\\AppMovilAPI\\AppMovilAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaime\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jaime\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -234,7 +234,8 @@
     "C:\\Users\\jaime\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\jaime\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\jaime\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\jaime\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512"
   ],
   "logs": []
 }

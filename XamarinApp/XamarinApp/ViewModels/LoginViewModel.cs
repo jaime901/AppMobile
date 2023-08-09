@@ -15,6 +15,7 @@ namespace XamarinApp.ViewModels
         private bool _ShowMessage;
 
 
+
         public string UserName
         {
             get => _username;
@@ -97,7 +98,8 @@ namespace XamarinApp.ViewModels
                     name = "a";
                     WelcomeMessage = "Correcto";
                     MessageColor = Color.Green;
-                    await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+                    //await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+                    await Shell.Current.GoToAsync($"//{nameof(ClientsPage)}");
                 }
                 else
                 {
@@ -107,8 +109,6 @@ namespace XamarinApp.ViewModels
                 }
 
             }
-
-            //await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
         }
         private bool ValidateFields()
         {

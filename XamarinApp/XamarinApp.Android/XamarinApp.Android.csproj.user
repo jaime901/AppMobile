@@ -5,5 +5,7 @@
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>Motorola moto g52 %28Android 12.0 - API 31%29</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
+    <ProjectView>ProjectFiles</ProjectView>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

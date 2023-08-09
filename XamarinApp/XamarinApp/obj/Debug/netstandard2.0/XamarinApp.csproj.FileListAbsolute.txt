@@ -8,6 +8,7 @@ C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinA
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\Views\ClientsPage.xaml.g.cs
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\XamarinApp.AssemblyInfoInputs.cache
 C:\Users\jaime\Documents\appmovil\Github\AppMobile\AppMobile\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\XamarinApp.AssemblyInfo.cs

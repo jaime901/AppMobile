@@ -9,5 +9,7 @@ namespace AppMovilAPI.Data.Models
         public long Id { get; set; }
         [Required]
         public string Name { get; set; }
+
+        public string Dna { get; set; }
     }
 }
