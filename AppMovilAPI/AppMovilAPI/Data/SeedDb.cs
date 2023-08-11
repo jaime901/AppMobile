@@ -18,7 +18,7 @@ namespace AppMovilAPI.Data
         {
             await this.context.Database.EnsureCreatedAsync();
 
-            if (!this.context.Client.Any())
+            if (!this.context.Clients.Any())
             {
                 this.AddClient("First Client");
                 this.AddClient("Second Client");
@@ -42,19 +42,17 @@ namespace AppMovilAPI.Data
                 await this.context.SaveChangesAsync();
             }
 
-            await this.context.Database.MigrateAsync();
-
-
         }
 
         private void AddClient(string name)
         {
-            this.context.Client.Add(new Models.Client
+            this.context.Clients.Add(new Models.Client
             {
                 Name = name,
                 Dna = this.random.Next(1000000, 1999999).ToString()
             });
         }
+
         private void AddUserRole(string roleName, RoleType roleType)
         {
             this.context.UserRoles.Add(new Models.UserRole
@@ -73,8 +71,5 @@ namespace AppMovilAPI.Data
                 RoleId = userRoleId
             });
         }
-
-
-
     }
 }

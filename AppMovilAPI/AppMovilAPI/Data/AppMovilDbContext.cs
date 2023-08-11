@@ -14,9 +14,9 @@ namespace AppMovilAPI.Data
         {
         }
 
-        public DbSet<AppMovilAPI.Data.Models.Client> Client { get; set; } = default!;
-        public DbSet<UserRole> UserRoles { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Client> Clients { get; set; } = default!;
+        public DbSet<UserRole> UserRoles { get; set; } = default!;
+        public DbSet<User> Users { get; set; } = default!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,7 +26,5 @@ namespace AppMovilAPI.Data
 
             base.OnModelCreating(modelBuilder);
         }
-
-
     }
 }

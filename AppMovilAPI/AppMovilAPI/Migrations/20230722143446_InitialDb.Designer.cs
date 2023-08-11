@@ -36,6 +36,10 @@ namespace AppMovilAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Dna")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Client");
