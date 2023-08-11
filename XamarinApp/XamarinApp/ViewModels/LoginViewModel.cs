@@ -100,8 +100,9 @@ namespace XamarinApp.ViewModels
         {
 
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-            if (ValidateFields() && await _accountService.LoginAsync(UserName, PassWord))
+            if (ValidateFields() )
             {
+                var a = await _accountService.LoginAsync(UserName, PassWord);
                 if (UserName == "a" && PassWord == "a")
                 {
                     name = "a";

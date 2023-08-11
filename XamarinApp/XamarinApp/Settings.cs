@@ -6,6 +6,6 @@ namespace XamarinApp
 {
     public static class Settings
     {
-        public const string ApiBaseUri = "https://localhost:80/api";
+        public const string ApiBaseUri = "http://192.168.1.115:5000/api";
     }
 }
