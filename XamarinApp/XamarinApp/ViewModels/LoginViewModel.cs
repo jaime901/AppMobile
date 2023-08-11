@@ -1,10 +1,19 @@
 ﻿using Xamarin.Forms;
+using XamarinApp.Services;
 using XamarinApp.Views;
 
 namespace XamarinApp.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
+        private readonly IAccountService _accountService;
+
+        public LoginViewModel(IAccountService accountService)
+        {
+            _accountService = accountService;
+            LoginCommand = new Command(OnLoginClicked);
+        }
+
         public Command LoginCommand { get; }
 
         private string _username;
@@ -91,7 +100,7 @@ namespace XamarinApp.ViewModels
         {
 
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-            if (ValidateFields())
+            if (ValidateFields() && await _accountService.LoginAsync(UserName, PassWord))
             {
                 if (UserName == "a" && PassWord == "a")
                 {

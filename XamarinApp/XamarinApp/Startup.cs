@@ -33,6 +33,10 @@ namespace XamarinApp
                 NullValueHandling = NullValueHandling.Ignore
             }));
 
+            serviceCollection.AddRefitClient<IAccountApi>(refitSettings)
+                .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
+                .AddHttpMessageHandler<BaseAddressHandler>();
+
             serviceCollection.AddRefitClient<IClientApi>(refitSettings)
                 .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
                 .AddHttpMessageHandler<BaseAddressHandler>();
